@@ -2,7 +2,7 @@ body {
       margin: 0;
       padding: 0;
       font-family: Arial, Helvetica, sans-serif;
-      background: linear-gradient(to bottom, #fff, #EEF3FA);
+      background: linear-gradient(to bottom, #fff, #EEF3FA); /* 그라데이션 방향 가로로 바꾸기: 왼 파랑 -> 오 하양 */
       color: #000;
     }
     .container {
