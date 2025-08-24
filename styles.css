@@ -4,7 +4,9 @@ body {
       /* font-family: Arial, Helvetica, sans-serif; */
       font-family: monaco, Consolas, "Lucida Console", monospace;
       /* background: linear-gradient(to left, #fff, #A4C2F4); */
-      background: linear-gradient(90deg,rgba(164, 194, 244, 1) 0%, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 1) 100%);;
+      /* background: linear-gradient(90deg,rgba(164, 194, 244, 1) 0%, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 1) 100%);; */
+      background-image: url("dither_it_poster (1).png");
+      background-size: cover;
       color: #000;
     }
     .container {
