@@ -13,6 +13,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    overflow-x: hidden;
 }
 
 mark {
@@ -93,16 +95,45 @@ a {
 
 
 .main_container {
-    max-width: 90vw;
-    height: 100%;
+    width: 100%;
+    /* height: 100%; */
+    position: relative;
     text-align: center;
 }
 
 .main_container img {
     height: 880px;
     margin: 3rem 0 3rem 0;
+    vertical-align: middle;
 }
 
+
+.ghosts {
+    overflow-x: hidden;
+
+    position: absolute;
+    top: 20%;
+
+    
+}
+
+.ghosts a {
+    display: block;
+    position: relative;
+    /* margin: 20rem 0 20rem 0; */
+
+    animation: rightToLeft 20s linear infinite;
+}
+
+@keyframes rightToLeft {
+    0% {
+      left: 100%;
+    }
+    
+    100% {
+      left: -100%;
+    }
+}
 
 
 
