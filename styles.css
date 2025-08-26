@@ -20,6 +20,13 @@ mark {
     color: #fff;
 }
 
+a {
+    font-size: 24px;
+    color: #0501F9;
+}
+
+
+
 .titles {
     text-align: left;
     /* width: 100vw; */
@@ -61,6 +68,7 @@ mark {
     align-items: center;
     font-size: 74px;
     max-width: 96vw;
+    margin: -2rem 0 -2rem 0;
 }
 
 .date p {
@@ -82,11 +90,33 @@ mark {
     margin: 0;
 }
 
+
+
+.main_container {
+    max-width: 90vw;
+    height: 100%;
+    text-align: center;
+}
+
+.main_container img {
+    height: 880px;
+    margin: 3rem 0 3rem 0;
+}
+
+
+
+
+.footer {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
 .footer_01 {
     font-size: 3rem;
     font-weight: bold;
     text-align: center;
-    margin-top: auto;   
 }
 
 .footer_02 {
@@ -94,4 +124,13 @@ mark {
     font-size: 2rem;
     text-align: center;
     font-style: italic;
+}
+
+.haja_logo {
+    /* display: inline;
+    display: flex;
+    align-items: right; */
+    float: right;
+    margin: 3rem;
+    height: 3rem;
 }
