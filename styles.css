@@ -87,9 +87,12 @@ a {
     font-size: 20px;
 } */
 
+.venue {
+    margin: 0;
+}
+
 .venue p {
     font-size: 20px;
-    margin: 0;
 }
 
 
@@ -162,6 +165,8 @@ a {
     display: flex;
     align-items: right; */
     float: right;
-    margin: 3rem;
-    height: 3rem;
+    margin-right: 40px;
+    margin-bottom: 0;
+    height: 220px;
 }
+
