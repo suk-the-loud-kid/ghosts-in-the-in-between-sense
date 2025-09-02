@@ -116,15 +116,11 @@ a {
 
     position: absolute;
     top: 20%;
-
-    
 }
 
 .ghosts a {
     display: block;
     position: relative;
-    /* margin: 20rem 0 20rem 0; */
-
     animation: rightToLeft 20s linear infinite;
 }
 
