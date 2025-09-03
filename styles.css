@@ -185,14 +185,19 @@ a {
 
 .blueprint {
     /* position: sticky; */
-    background-color: skyblue;
-    width: 546px;
+    /* background-color: skyblue; */
+    width: 50%;
+}
+
+.blueprint img {
+    width: 100%;
+    margin-top: -2rem;
 }
 
 .works_kr {
     /* background-color: pink; */
     width: 330px;
-    height: 660px;
+    height: 860px;
     overflow-y: auto;
 
     font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
@@ -216,7 +221,7 @@ a {
 .works_en {
     /* background-color: whitesmoke; */
     width: 330px;
-    height: 660px;
+    height: 860px;
     overflow-y: auto;
 
     padding-left: 1rem;
