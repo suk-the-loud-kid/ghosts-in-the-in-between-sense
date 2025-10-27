@@ -92,7 +92,7 @@ a {
 }
 
 .venue p {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 
@@ -239,4 +239,54 @@ a {
 
 .works_en_exp {
     line-height: 160%;
+}
+
+
+
+/* 여기서부터 introduction.html */
+
+.intro_container {
+    margin-top: 10rem;
+    max-width: 95vw;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.intro_kr {
+    /* position: relative; */
+    /* max-width: 60%; */
+    padding-right: 1rem;
+}
+
+.intro_en {
+    padding-left: 1rem;
+}
+
+.intro_kr p, .intro_en p {
+    background-color: white;
+    font-size: 24px;
+    line-height: 160%;
+    word-break: keep-all;
+    word-wrap: break-word;
+}
+
+
+
+
+/* 여기서부터 talk.html */
+
+.intro {
+    margin: 10rem 0 0 20rem;
+    position: relative;
+    max-width: 60%;
+
+    background-color: white;
+}
+
+.intro p {
+    font-size: 24px;
+    line-height: 160%;
+    word-break: keep-all;
+    word-wrap: break-word;
 }
